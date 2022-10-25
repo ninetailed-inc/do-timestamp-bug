@@ -1,0 +1,13 @@
+name = "do-date-test"
+account_id = "37899b450014da109f58073d3134d8a4"
+main = "./src/index.mjs"
+compatibility_date = "2022-09-08"
+type = "javascript"
+
+
+[durable_objects]
+bindings = [{name = "DATE_SERVER", class_name = "DateServer"}]
+
+[[migrations]]
+tag = "v1" # Should be unique for each entry
+new_classes = ["DateServer"]

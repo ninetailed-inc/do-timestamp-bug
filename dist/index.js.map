@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../src/index.mjs"],
+  "sourceRoot": "dist",
+  "sourcesContent": ["// Worker\n\nexport default {\n  async fetch(request, env) {\n    return await handleRequest(request, env);\n  },\n};\n\nasync function handleRequest(request, env) {\n  const id = env.DATE_SERVER.idFromName(\"A\");\n  const dateServer = env.DATE_SERVER.get(id);\n  const response = await dateServer.fetch(request.url);\n\n  return response;\n}\n\n// Durable Object\n\nexport class DateServer {\n  constructor(state, env) {\n    this.state = state;\n\n    this.createdAt = Date.now();\n\n    this.incomingRequestTimestamps = [];\n  }\n\n  async fetch() {\n    this.incomingRequestTimestamps.push(Date.now());\n\n    return new Response(\n      {\n        createdAt: this.createdAt,\n        incomingRequestTimestamps: this.incomingRequestTimestamps,\n      },\n      { headers: { \"Content-Type\": \"application/json\" } }\n    );\n  }\n}\n"],
+  "mappings": ";AAEA,IAAO,cAAQ;AAAA,EACb,MAAM,MAAM,SAAS,KAAK;AACxB,WAAO,MAAM,cAAc,SAAS,GAAG;AAAA,EACzC;AACF;AAEA,eAAe,cAAc,SAAS,KAAK;AACzC,QAAM,KAAK,IAAI,YAAY,WAAW,GAAG;AACzC,QAAM,aAAa,IAAI,YAAY,IAAI,EAAE;AACzC,QAAM,WAAW,MAAM,WAAW,MAAM,QAAQ,GAAG;AAEnD,SAAO;AACT;AAIO,IAAM,aAAN,MAAiB;AAAA,EACtB,YAAY,OAAO,KAAK;AACtB,SAAK,QAAQ;AAEb,SAAK,YAAY,KAAK,IAAI;AAE1B,SAAK,4BAA4B,CAAC;AAAA,EACpC;AAAA,EAEA,MAAM,QAAQ;AACZ,SAAK,0BAA0B,KAAK,KAAK,IAAI,CAAC;AAE9C,WAAO,IAAI;AAAA,MACT;AAAA,QACE,WAAW,KAAK;AAAA,QAChB,2BAA2B,KAAK;AAAA,MAClC;AAAA,MACA,EAAE,SAAS,EAAE,gBAAgB,mBAAmB,EAAE;AAAA,IACpD;AAAA,EACF;AACF;",
+  "names": []
+}
