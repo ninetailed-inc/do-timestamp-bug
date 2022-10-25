@@ -1,0 +1,227 @@
+[
+    {
+      "_id": "63579b488303384fa898cdd0",
+      "index": 0,
+      "guid": "352335ca-4a89-4a16-9de7-bfeeeb96a656",
+      "isActive": false,
+      "balance": "$3,448.03",
+      "picture": "http://placehold.it/32x32",
+      "age": 21,
+      "eyeColor": "blue",
+      "name": "Brady Mendoza",
+      "gender": "male",
+      "company": "SONIQUE",
+      "email": "bradymendoza@sonique.com",
+      "phone": "+1 (892) 516-3261",
+      "address": "697 Hutchinson Court, Titanic, Pennsylvania, 893",
+      "about": "Est sunt laborum aliqua reprehenderit elit eiusmod duis magna ea excepteur irure. Elit commodo nostrud non aute commodo est laboris minim. Sint labore commodo et nulla commodo incididunt dolor reprehenderit duis pariatur. Dolor commodo ea aliquip reprehenderit non exercitation duis deserunt aliqua laboris. Occaecat deserunt proident reprehenderit ad nisi. Reprehenderit adipisicing non tempor adipisicing elit magna minim.\r\n",
+      "registered": "2017-03-21T09:23:26 -01:00",
+      "latitude": -53.243636,
+      "longitude": -58.447385,
+      "tags": [
+        "fugiat",
+        "excepteur",
+        "dolore",
+        "amet",
+        "amet",
+        "sint",
+        "do"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Holt York"
+        },
+        {
+          "id": 1,
+          "name": "Juliana Case"
+        },
+        {
+          "id": 2,
+          "name": "Tracy Valentine"
+        }
+      ],
+      "greeting": "Hello, Brady Mendoza! You have 6 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "63579b48725bc7cb89068959",
+      "index": 1,
+      "guid": "eee29c3a-75ff-4803-9d77-8eab4dc173e6",
+      "isActive": true,
+      "balance": "$3,344.46",
+      "picture": "http://placehold.it/32x32",
+      "age": 26,
+      "eyeColor": "green",
+      "name": "Case David",
+      "gender": "male",
+      "company": "DIGIRANG",
+      "email": "casedavid@digirang.com",
+      "phone": "+1 (803) 496-3368",
+      "address": "175 Meserole Street, Carrsville, Puerto Rico, 5189",
+      "about": "Do nostrud dolor reprehenderit quis labore occaecat laborum ex. Veniam qui voluptate velit amet culpa ad. Pariatur quis ut non nisi nulla veniam officia dolore.\r\n",
+      "registered": "2018-11-10T03:49:22 -01:00",
+      "latitude": -41.151405,
+      "longitude": -39.855066,
+      "tags": [
+        "exercitation",
+        "dolore",
+        "quis",
+        "aliqua",
+        "officia",
+        "tempor",
+        "esse"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Combs Nash"
+        },
+        {
+          "id": 1,
+          "name": "Brennan Mercado"
+        },
+        {
+          "id": 2,
+          "name": "Irene Duffy"
+        }
+      ],
+      "greeting": "Hello, Case David! You have 8 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "63579b488df8e94757d03111",
+      "index": 2,
+      "guid": "5f30efb7-f807-44d2-a4a8-f3cff3d345c8",
+      "isActive": false,
+      "balance": "$3,075.94",
+      "picture": "http://placehold.it/32x32",
+      "age": 20,
+      "eyeColor": "green",
+      "name": "Julia Roberts",
+      "gender": "female",
+      "company": "MAGNEMO",
+      "email": "juliaroberts@magnemo.com",
+      "phone": "+1 (945) 585-2765",
+      "address": "736 Nolans Lane, Maxville, Idaho, 7552",
+      "about": "Labore ullamco duis dolore culpa eiusmod esse reprehenderit et. Quis irure aute ex est exercitation officia dolor ex laboris exercitation. Cupidatat sunt nostrud reprehenderit pariatur ipsum magna exercitation pariatur dolor laboris occaecat. Voluptate magna do aliquip voluptate ea. Aliquip dolore eiusmod eiusmod amet ipsum. Quis duis anim voluptate proident minim.\r\n",
+      "registered": "2020-07-13T02:05:51 -02:00",
+      "latitude": -83.267784,
+      "longitude": -133.867569,
+      "tags": [
+        "aute",
+        "incididunt",
+        "in",
+        "aute",
+        "id",
+        "occaecat",
+        "quis"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Manuela Sweeney"
+        },
+        {
+          "id": 1,
+          "name": "Iva Dale"
+        },
+        {
+          "id": 2,
+          "name": "Kristen Marsh"
+        }
+      ],
+      "greeting": "Hello, Julia Roberts! You have 7 unread messages.",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "_id": "63579b4833d20059d336f94b",
+      "index": 3,
+      "guid": "816e959c-850c-4c5f-867a-d1bc40c993ea",
+      "isActive": false,
+      "balance": "$1,418.71",
+      "picture": "http://placehold.it/32x32",
+      "age": 26,
+      "eyeColor": "brown",
+      "name": "Garrett Peters",
+      "gender": "male",
+      "company": "FANGOLD",
+      "email": "garrettpeters@fangold.com",
+      "phone": "+1 (895) 517-3524",
+      "address": "659 Karweg Place, Bartley, Washington, 4325",
+      "about": "Tempor aliquip minim non proident laborum minim dolore dolore consectetur incididunt sit laborum sunt elit. Ea voluptate nisi laborum tempor aliqua voluptate non elit duis veniam ea irure cupidatat fugiat. Labore duis magna ut enim.\r\n",
+      "registered": "2016-07-20T04:07:44 -02:00",
+      "latitude": 48.063315,
+      "longitude": -73.291522,
+      "tags": [
+        "esse",
+        "fugiat",
+        "id",
+        "aliquip",
+        "adipisicing",
+        "mollit",
+        "occaecat"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Bates Kerr"
+        },
+        {
+          "id": 1,
+          "name": "Morgan Beach"
+        },
+        {
+          "id": 2,
+          "name": "Reba Romero"
+        }
+      ],
+      "greeting": "Hello, Garrett Peters! You have 5 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "_id": "63579b482dcfd51e8e4e95c2",
+      "index": 4,
+      "guid": "2277f38b-9c0c-4fe7-a096-e241b0bca88c",
+      "isActive": true,
+      "balance": "$1,634.40",
+      "picture": "http://placehold.it/32x32",
+      "age": 35,
+      "eyeColor": "blue",
+      "name": "Maribel Cohen",
+      "gender": "female",
+      "company": "GEOFARM",
+      "email": "maribelcohen@geofarm.com",
+      "phone": "+1 (820) 457-2844",
+      "address": "665 Lott Avenue, Wright, Rhode Island, 3127",
+      "about": "Culpa dolore commodo esse exercitation cupidatat tempor. Cillum deserunt voluptate culpa do eiusmod commodo ut tempor voluptate. Ex fugiat id occaecat ut aliquip ex ex excepteur laborum Lorem. Sint consectetur aute officia qui dolore minim aliquip. Do labore esse reprehenderit sunt aliquip.\r\n",
+      "registered": "2015-06-02T01:35:08 -02:00",
+      "latitude": 78.017839,
+      "longitude": 179.331046,
+      "tags": [
+        "mollit",
+        "incididunt",
+        "laborum",
+        "laboris",
+        "non",
+        "nulla",
+        "ex"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Latonya Woods"
+        },
+        {
+          "id": 1,
+          "name": "Benita Glass"
+        },
+        {
+          "id": 2,
+          "name": "Danielle Beasley"
+        }
+      ],
+      "greeting": "Hello, Maribel Cohen! You have 8 unread messages.",
+      "favoriteFruit": "banana"
+    }
+  ]
